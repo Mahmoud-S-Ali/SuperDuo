@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_start_options">
+        <item>@string/pref_books_label</item>
+        <item>@string/pref_scan_label</item>
+    </string-array>
+
+    <string-array name="pref_start_values">
+        <item>@string/pref_books_value</item>
+        <item>@string/pref_scan_value</item>
+    </string-array>
+
+    <string-array name="drawer_titles">
+        <item>@string/library_title</item>
+        <item>@string/scan_title</item>
+        <item>@string/settings_title</item>
+        <item>@string/about_title</item>
+    </string-array>
+</resources>

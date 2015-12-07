@@ -1,0 +1,15 @@
+<tools:android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_drawer_recyclerview"
+    android:layout_width="@dimen/nav_drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:paddingBottom="@dimen/small_padding"
+    android:background="@color/white"
+    android:scrollbars="vertical"
+    tools:context=".NavigationDrawerFragment">
+</tools:android.support.v7.widget.RecyclerView>
+
+
+
+

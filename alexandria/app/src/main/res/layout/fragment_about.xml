@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="it.jaschke.alexandria.AboutActivity.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/medium_padding"
+        android:paddingStart="@dimen/medium_padding"
+        android:paddingRight="@dimen/medium_padding"
+        android:paddingEnd="@dimen/medium_padding"
+        android:paddingTop="@dimen/medium_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/about_text" />
+
+</FrameLayout>

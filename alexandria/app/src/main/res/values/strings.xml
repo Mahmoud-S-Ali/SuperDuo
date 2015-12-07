@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alexandria</string>
+
+    <!-- Menu Items -->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- Used for the listPreference names and values of startScreen -->
+    <string name="pref_books_label">List of Books</string>
+    <string name="pref_scan_label">Scan/Add a Book</string>
+    <string name="pref_books_value" translatable="false">1</string>
+    <string name="pref_scan_value" translatable="false">2</string>
+
+    <!-- Title Strings for the navigation drawer  -->
+    <string name="library_title">My Library</string>
+    <string name="scan_title">Scan/Add a Book</string>
+    <string name="details_title">Book Details</string>
+    <string name="settings_title">Settings</string>
+    <string name="about_title">About</string>
+
+    <!-- Used to store the chosen value in Shared Preferences -->
+    <string name="pref_startScreen_key" translatable="false">Start Screen Key</string>
+
+    <string name="pref_startScreen">Select Startscreen</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_startScreen_default" translatable="false">@string/pref_books_label</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Delete</string>
+    <string name="scan_button">Scan</string>
+
+    <string name="input_hint">Insert ISBN-13. Digits only.</string>
+    <string name="book_cover">Bookcover</string>
+
+    <string name="ok_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete Book</string>
+
+    <string name="action_share">Share</string>
+    <string name="share_text">A must read book: </string>
+
+    <!-- Error messages -->
+    <string name="empty_books_list">No Books Found</string>
+    <string name="book_not_found">No Book Found</string>
+    <string name="no_connection">No Connection Found</string>
+    <string name="server_down">Server Is Down. Please Try Again Later</string>
+    <string name="server_invalid">Server Is Invalid. Please Check For Updates</string>
+
+    <!-- This string will be used as key for the shared preference to sotre add book status -->
+    <string name="add_book_status_key" translatable="false">add book status key</string>
+
+    <!-- Those strings will be used in the book details head lines -->
+    <string name="title">Title:   </string>
+    <string name="by">By:</string>
+    <string name="categories">Cat.:</string>
+    <string name="description">Description:</string>
+    <string name="no_info">No Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_text">This application gets book information from a Google API. All titles, cover images, and author information come from there.
+    The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program. </string>
+
+    <!-- Barcode Values -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+</resources>

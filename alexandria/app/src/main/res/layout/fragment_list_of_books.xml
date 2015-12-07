@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="it.jaschke.alexandria.fragments.ListOfBooks">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/list_margin"
+        android:layout_marginStart="@dimen/list_margin"
+        android:layout_marginRight="@dimen/list_margin"
+        android:layout_marginEnd="@dimen/list_margin">
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/list_searchImg_margin"
+            android:contentDescription="@string/search"
+            android:background="@drawable/touch_selector"
+            android:src="@drawable/ic_action_search" />
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/list_searchInput_margin"
+            android:layout_marginLeft="@dimen/list_searchInput_margin"
+            android:layout_marginStart="@dimen/list_searchInput_margin"
+            android:layout_marginRight="@dimen/list_searchInput_margin"
+            android:layout_marginEnd="@dimen/list_searchInput_margin"
+            android:layout_marginTop="@dimen/list_searchInput_margin"
+            android:layout_toLeftOf="@+id/searchButton"
+            android:layout_toStartOf="@+id/searchButton"
+            android:inputType="text"
+            android:saveEnabled="true" />
+
+
+        <ListView
+            android:id="@+id/listOfBooks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@id/searchButton"
+            android:layout_below="@+id/searchText"
+            android:layout_toRightOf="@id/searchButton"
+            android:layout_toEndOf="@id/searchButton"/>
+
+        <!-- empty list -->
+        <TextView
+            android:id="@+id/listview_books_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/medium_fontsize"
+            android:text="@string/empty_books_list"/>
+    </RelativeLayout>
+
+</FrameLayout>

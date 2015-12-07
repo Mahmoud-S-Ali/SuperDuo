@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General dimensions -->
+    <dimen name="x_small_fontsize">16sp</dimen>
+    <dimen name="small_fontsize">20sp</dimen>
+    <dimen name="medium_fontsize">22sp</dimen>
+    <dimen name="large_fontsize">24sp</dimen>
+
+    <!-- List Item dimensions -->
+    <dimen name="list_item_deleteImg_padding">16dp</dimen>
+
+    <!-- List Fragment Dimensions -->
+    <dimen name="list_searchImg_margin">20dp</dimen>
+    <dimen name="list_searchInput_margin">25dp</dimen>
+    <dimen name="list_margin">40dp</dimen>
+
+    <!-- Book Details Dimensions -->
+    <dimen name="detail_cover_width">140dp</dimen>
+    <dimen name="detail_cover_minHeight">180dp</dimen>
+    <dimen name="detail_cover_maxHeight">220dp</dimen>
+    <dimen name="detail_cover_margin">32dp</dimen>
+    <dimen name="headline_margin_small">16dp</dimen>
+    <dimen name="headline_margin_large">32dp</dimen>
+    <dimen name="description_margin">32dp</dimen>
+
+    <!-- Add Book Dimensions -->
+    <dimen name="add_input_margin">40dp</dimen>
+    <dimen name="add_input_padding">20dp</dimen>
+    <dimen name="add_emptyview_margin">30dp</dimen>
+    <dimen name="add_bookDetails_margin_vertical">30dp</dimen>
+    <dimen name="add_bookDetails_margin_horizontal">60dp</dimen>
+    <dimen name="add_buttons_height">60dp</dimen>
+</resources>

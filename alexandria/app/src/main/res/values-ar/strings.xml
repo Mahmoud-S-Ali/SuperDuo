@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الاسكندرية</string>
+
+    <!-- Used for the listPreference names and values of startScreen -->
+    <string name="pref_books_label">قائمة الكتب</string>
+    <string name="pref_scan_label">أضافة كتاب</string>
+
+    <!-- Title Strings for the navigation drawer  -->
+    <string name="library_title">المكتبة</string>
+    <string name="scan_title">أضف كتاب</string>
+    <string name="settings_title">الاعدادات</string>
+    <string name="about_title">عن هذا البرنامج</string>
+
+    <string name="pref_startScreen">اختر شاشة البدء</string>
+
+    <string name="action_delete">مسح</string>
+    <string name="scan_button">فحص</string>
+
+    <string name="input_hint">ادخل رمز التعريف. 13 رقم</string>
+
+    <string name="ok_button">حفظ</string>
+    <string name="cancel_button">تجاهل</string>
+    <string name="search">بحث</string>
+    <string name="delete">مسح</string>
+
+    <string name="action_share">انشر</string>
+    <string name="share_text">يجب قراءة هذا الكتاب:  </string>
+
+    <!-- Error messages -->
+    <string name="empty_books_list">لا يوجد كتب</string>
+    <string name="book_not_found">لم يعثر على كتاب</string>
+    <string name="no_connection">غير متصل بالشبكة</string>
+    <string name="server_down">يوجد عطل بالسيرفر. حاول لاحقا من فضلك</string>
+    <string name="server_invalid">السيرفر غير متاح. يرجى التحديث</string>
+
+    <!-- Those strings will be used in the book details head lines -->
+    <string name="title">االعنوان:  </string>
+    <string name="by">بواسطة:</string>
+    <string name="categories">الفئات:</string>
+    <string name="description">الوصف:</string>
+    <string name="no_info">لا توجد معلومات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_text">This application gets book information from a Google API. All titles, cover images, and author information come from there.
+    The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program. </string>
+</resources>

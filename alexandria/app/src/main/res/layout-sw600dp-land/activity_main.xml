@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/navigation_drawer"
+        android:name="it.jaschke.alexandria.fragments.NavigationDrawerFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:elevation="@dimen/toolbar_elevation"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.Space
+                android:id="@+id/layout_center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignEnd="@id/layout_center"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@id/layout_center"></FrameLayout>
+
+            <android.support.v4.widget.Space
+                android:id="@+id/cardviewAligner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@id/layout_center"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@id/layout_center"
+                android:layout_marginEnd="@dimen/small_padding"
+                android:layout_marginRight="@dimen/small_padding"
+                android:layout_marginTop="@dimen/small_padding"
+                android:elevation="@dimen/toolbar_elevation" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/book_detail_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@id/cardviewAligner"
+                android:layout_alignLeft="@id/cardviewAligner"
+                android:layout_alignRight="@id/cardviewAligner"
+                android:layout_alignTop="@id/cardviewAligner"
+                android:layout_marginBottom="@dimen/small_padding"
+                android:layout_marginEnd="@dimen/small_padding"
+                android:layout_marginRight="@dimen/small_padding"
+                android:background="@color/primary_light"
+                app:cardElevation="@dimen/detail_card_elevation"
+                app:cardPreventCornerOverlap="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

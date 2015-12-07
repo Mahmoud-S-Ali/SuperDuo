@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <ImageView
+            android:id="@+id/fullBookCover"
+            android:layout_width="@dimen/detail_cover_width"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/detail_cover_minHeight"
+            android:maxHeight="@dimen/detail_cover_maxHeight"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/detail_cover_margin"
+            android:layout_marginStart="@dimen/detail_cover_margin"
+            android:layout_marginTop="@dimen/detail_cover_margin"
+            android:contentDescription="@string/book_cover"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/headline_margin_large"
+            android:layout_toRightOf="@id/fullBookCover"
+            android:layout_toEndOf="@id/fullBookCover"
+            android:layout_marginLeft="@dimen/headline_margin_small"
+            android:layout_marginStart="@dimen/headline_margin_small"
+            android:text="@string/title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/medium_fontsize" />
+
+        <TextView
+            android:id="@+id/fullBookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/headline_margin_small"
+            android:layout_marginStart="@dimen/headline_margin_small"
+            android:layout_marginTop="@dimen/headline_margin_large"
+            android:layout_toRightOf="@id/title_label"
+            android:layout_toEndOf="@id/title_label"
+            android:paddingEnd="@dimen/headline_margin_large"
+            android:paddingRight="@dimen/headline_margin_large"
+            android:text="@string/no_info"
+            android:textColor="@color/primary_text"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/medium_fontsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/author_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullBookTitle"
+            android:layout_marginTop="@dimen/headline_margin_small"
+            android:layout_toRightOf="@id/fullBookCover"
+            android:layout_toEndOf="@id/fullBookCover"
+            android:layout_marginLeft="@dimen/headline_margin_small"
+            android:layout_marginStart="@dimen/headline_margin_small"
+            android:text="@string/by"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/medium_fontsize" />
+
+        <TextView
+            android:id="@+id/authors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullBookTitle"
+            android:layout_marginLeft="@dimen/headline_margin_small"
+            android:layout_marginStart="@dimen/headline_margin_small"
+            android:layout_marginTop="@dimen/headline_margin_small"
+            android:layout_toRightOf="@id/title_label"
+            android:layout_toEndOf="@id/title_label"
+            android:paddingEnd="@dimen/headline_margin_large"
+            android:paddingRight="@dimen/headline_margin_large"
+            android:text="@string/no_info"
+            android:textColor="@color/primary_text"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/medium_fontsize" />
+
+        <TextView
+            android:id="@+id/categories_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/authors"
+            android:layout_marginTop="@dimen/headline_margin_small"
+            android:layout_toRightOf="@id/fullBookCover"
+            android:layout_toEndOf="@id/fullBookCover"
+            android:layout_marginLeft="@dimen/headline_margin_small"
+            android:layout_marginStart="@dimen/headline_margin_small"
+            android:text="@string/categories"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/medium_fontsize" />
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/authors"
+            android:layout_marginLeft="@dimen/headline_margin_small"
+            android:layout_marginStart="@dimen/headline_margin_small"
+            android:layout_marginTop="@dimen/headline_margin_small"
+            android:layout_toRightOf="@id/title_label"
+            android:layout_toEndOf="@id/title_label"
+            android:paddingEnd="@dimen/headline_margin_large"
+            android:paddingRight="@dimen/headline_margin_large"
+            android:text="@string/no_info"
+            android:textColor="@color/primary_text"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/medium_fontsize" />
+
+
+        <TextView
+            android:id="@+id/desc_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/fullBookCover"
+            android:layout_marginEnd="@dimen/headline_margin_large"
+            android:layout_marginLeft="@dimen/headline_margin_large"
+            android:layout_marginRight="@dimen/headline_margin_large"
+            android:layout_marginStart="@dimen/headline_margin_large"
+            android:layout_marginTop="@dimen/headline_margin_large"
+            android:ellipsize="end"
+            android:text="@string/description"
+            android:textColor="@color/primary_text"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/medium_fontsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fullBookDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/desc_label"
+            android:layout_marginEnd="@dimen/description_margin"
+            android:layout_marginLeft="@dimen/description_margin"
+            android:layout_marginRight="@dimen/description_margin"
+            android:layout_marginStart="@dimen/description_margin"
+            android:layout_marginTop="@dimen/headline_margin_small"
+            android:layout_marginBottom="@dimen/headline_margin_small"
+            android:ellipsize="end"
+            android:text="No Info"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/small_fontsize" />
+    </RelativeLayout>
+</ScrollView>

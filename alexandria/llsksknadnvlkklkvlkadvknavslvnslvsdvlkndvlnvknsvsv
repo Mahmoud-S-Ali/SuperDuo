@@ -1,0 +1,47 @@
+[33mcommit b9751e1697d4e6579650401424e76dbb798493cf[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Mon Nov 30 12:44:53 2015 +0200
+
+    Reconstruct NavigationDrawer From Recycler to ListView
+
+[33mcommit 99c739612bff236b052300dead7b8d8a0c83537b[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Mon Nov 30 11:59:22 2015 +0200
+
+    Reconstruct Drawer
+
+[33mcommit 14bf9adc4b2049301755869646e816d895583934[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Sun Nov 22 19:35:14 2015 +0200
+
+    Substitute DownloadImage with Glide
+
+[33mcommit c471b63d72bd57cc4e46d3d2d3cace1f1079dc4a[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Sun Nov 22 18:15:18 2015 +0200
+
+    Create the book details
+
+[33mcommit 7f98fee00fd3325f49aa64499349b49ff41f7a93[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Sun Nov 22 02:31:19 2015 +0200
+
+    Finish About and Settings
+
+[33mcommit 31e8d08988208635f2ff9031f05e4da01b6cca91[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Sat Nov 21 00:30:35 2015 +0200
+
+    Finish Navigatio Drawer but Item Choice
+
+[33mcommit d3850ca37a051481459bb3a422c779a9f46e4a03[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Fri Nov 20 02:45:38 2015 +0200
+
+    Solve the up issue
+
+[33mcommit 6c41677bdc0ef66d4d4b38265fb4b09f39a5d056[m
+Author: Mahmoud Samir <eng.mahmouds.ali@gmail.com>
+Date:   Thu Nov 19 19:44:47 2015 +0200
+
+    Code start

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/small_padding"
+    android:paddingStart="@dimen/small_padding"
+    android:background="@drawable/touch_selector">
+
+    <ImageView
+        android:id="@+id/listBookCover"
+        android:layout_width="@dimen/list_item_cover_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/small_padding"
+        android:contentDescription="@string/book_cover"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/medium_padding"
+        android:layout_marginStart="@dimen/medium_padding"
+        android:layout_marginRight="@dimen/medium_padding"
+        android:layout_marginEnd="@dimen/medium_padding"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/small_padding"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/listBookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:singleLine="true"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/medium_fontsize" />
+
+        <!--<TextView
+            android:id="@+id/listBookSubTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="26dip"
+            android:layout_below="@id/listBookTitle"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Back from hell"
+            android:textSize="@dimen/x_small_fontsize" />-->
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/list_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/touch_selector"
+        android:paddingEnd="@dimen/list_item_deleteImg_padding"
+        android:paddingRight="@dimen/list_item_deleteImg_padding"
+        android:paddingLeft="@dimen/list_item_deleteImg_padding"
+        android:paddingStart="@dimen/list_item_deleteImg_padding"
+        android:scaleType="center"
+        android:src="@drawable/ic_action_discard" />
+</LinearLayout>
