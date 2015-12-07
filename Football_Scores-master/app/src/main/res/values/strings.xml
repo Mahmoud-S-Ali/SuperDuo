@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Football Scores</string>
+    <string name="action_settings">Settings</string>
+
+    <!--<string name="test_text">Test</string>-->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="matchday_text">Match day</string>
+    <string name="group_stage_text">Group stages</string>
+    <string name="first_knockout_round">First knockout round</string>
+    <string name="quarter_final">Quarter Final</string>
+    <string name="semi_final">Semi Final</string>
+    <string name="final_text">Final</string>
+
+    <string name="share_text">Share</string>
+    <string name="about">About</string>
+    <!--<string name="title_activity_about" translatable="false">AboutActivity</string>-->
+    <string name="about_text">
+        This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+        and the Uefa Champions League.
+        All Matches data are acquired from football-data.org free API.
+        All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission form the owner.
+        The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+        To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+
+        During the off season, fake data will be added to the app.
+    </string>
+
+    <string name="api_key" translatable="false"></string>
+
+    <!-- Leagues Names -->
+    <string name="bundes_liga">Bundesliga</string>
+    <string name="premiere_league">Premiere League</string>
+    <string name="league_one">League One</string>
+    <string name="serie_a">Serie A</string>
+    <string name="serie_b">Serie B</string>
+    <string name="primera_division">Primera Division</string>
+    <string name="segunda_devision">Segunda Devision</string>
+    <string name="league_1">League 1</string>
+    <string name="league_2">League 2</string>
+    <string name="eredivisie">Eredivisie</string>
+    <string name="primeira_liga">Premeira Liga</string>
+    <string name="super_league">Super League</string>
+    <string name="champions_league">Champions League</string>
+    <string name="uefa_cup">Uefa Cup</string>
+    <string name="european_cup_of_nations">European Cup Of Nations</string>
+    <string name="world_cup">World Cup</string>
+
+    <!-- A11y -->
+    <string name="a11y_home_icon">Home Team Logo</string>
+    <string name="a11y_away_icon">Away Team Logo</string>
+    <string name="a11y_home_team">Home Team: <xliff:g id="home">%1$s</xliff:g></string>
+    <string name="a11y_away_team">Away Team: <xliff:g id="away">%1$s</xliff:g></string>
+    <string name="a11y_time">Match Time: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="a11y_result">Match Result: <xliff:g id="home_score">%1$s</xliff:g>
+                                            <xliff:g id="away_score">%2$s</xliff:g>
+    </string>
+    <string name="a11y_league">League: <xliff:g id="league">%1$s</xliff:g></string>
+    <string name="a11y_match_day">Match Day: <xliff:g id="matchday">%1$s</xliff:g></string>
+
+
+    <!-- Widgets Titles -->
+    <string name="title_widget_today_matches">Today\'s Matches</string>
+    <string name="title_widget_detail">Today\'s Matches</string>
+
+    <string name="content_authority" translatable="false">barqsoft.footballscores</string>
+    <string name="sync_account_type" translatable="false">footballscores.barqsoft</string>
+
+    <string name="scores_status_key" translatable="false">scores status key</string>
+
+
+    <!-- Empty Scores Database -->
+    <string name="empty_scores_list">No Matches Found</string>
+    <string name="empty_scores_list_no_network">No Connection Found</string>
+    <string name="empty_scores_list_server_down">No matches information available. The server is not returning data.</string>
+    <string name="empty_scores_list_server_error">No matches information available. The server is not returning valid data. Please check for an updated version of Sunshine.</string>
+
+</resources>
