@@ -59,7 +59,8 @@ public class ListOfBooks extends Fragment implements LoaderManager.LoaderCallbac
         super.onSaveInstanceState(outState);
         if (outState != null) {
             outState.putInt(LISTVIEW_POSITION, mPosition);
-            outState.putString(SEARCH_TEXT, mSearchText.getText().toString());
+            if (mSearchText != null)
+                outState.putString(SEARCH_TEXT, mSearchText.getText().toString());
         }
     }
 
